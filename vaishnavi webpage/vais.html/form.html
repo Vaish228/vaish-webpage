@@ -1,0 +1,123 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<style>
+body{ color: white; font-size: 40px; text-align: left; font-style: italic; font-family: cursive ;}
+body{background: url( "bgimg3.jpg") centercenter fixed no-repeat;}
+input,select,course,programme{font-size:25px;}
+</style>
+</head>
+<body>
+<h1> APPLICATION FORM </h1>
+<fieldset>
+<legend><h4> PERSONAL DETAILS</h4></legend>
+<label> First Name </label>
+<input  type="text" name="textF" value="FirstName"  required=""><br><br>
+LastName
+<input type="text" name="textL" value="LastName" tabindex="2" required""><br><br>
+	 DOB
+<input type="date" name="DOB"><br><br>
+       Age
+<input type="number" min="18" max="50" step="1" autofocus=""><br><br>
+FatherName
+<input type="text" name="textF" tabindex="1"><br><br>
+MotherName
+<input type="text" name="textM" tabindex="1"><br><br>
+<label> Gender:</label>
+<input type="radio" id="male" name="gender" value="m">
+<label> Male </label>
+<input type="radio" id="female" name="gender" value="f" checked>
+<label> Female </label>
+<input type="radio" id="others" name="gender" value="o">
+<label> Others </label><br><br>
+<label>Programme:</label>
+	<input type="radio" id="BE" name="Programme" value="BE">
+	<label> BE</label>
+	<input type="radio" id="BTECH" name="Programme" value="BTECH" >
+	<label> BTECH</label>
+	<input type="radio" id="ME" name="Programme" value="ME" checked="">
+	<label> ME</label><br><br>
+	<label> Course</label>
+<select>
+	<option>cse</option>
+	<option>eee</option>
+	<option>it </option>
+	<option selected>csd</option>
+<option>ece</option>
+	<option>mech </option></select><br><br>
+</fieldset>
+<fieldset>
+<legend><h4>SKILLS</h4></legend>
+<label> Field of Interest </label>
+<select>
+<option> Data Structure </option>
+<option> Web Designing </option>
+	<option> Cloud Computing</option>
+<option> Ethical Hacking</option>
+</select><br><br>
+<label> Languages Known</label>
+<select>
+<option> C </option>
+<option> C++ </option>
+	<option> JAVA</option>
+<option> PYTHON</option>
+<option> JAVASCRIPT</option>
+<option> HTML</option>
+</select><br><br>
+	 Hobbies
+<input type="text" name="hobbies"><br><br>
+</fieldset>
+<fieldset>
+<legend><h4>ACADEMIC INFO</h4></legend>
+<label>SSLC mark<label>
+<input type="number" value="number" max="500" min="250" required><br><br>
+<label>HSC mark<label>
+<input type="number" value="number" max="600" min="350" required><br><br>
+  Upload your file
+<input type="file" multiple><br><br>
+<label>School Name </label>
+<textarea rows="2" cols="35" name="addr" >	</textarea><br><br>
+<label>College Name </label>
+<textarea rows="2" cols="35" name="addr" >	</textarea><br>
+</fieldset>
+<fieldset>
+<legend><h4>GENERAL INFO</h4></legend>
+     Caste:
+<input type="radio" id="BC" name="caste" value="BC">
+	<label> BC</label>
+<input type="radio" id="OC" name="caste" value="OC">
+	<label> OC</label>
+<input type="radio" id="SC" name="caste" value="SC">
+	<label> SC</label>
+<input type="radio" id="MBC" name="caste" value="MBC">
+	<label> MBC</label>
+<input type="radio" id="Others" name="caste" value="Others">
+	<label> Others</label><br><br>
+Community:
+<input  type="text" name="textF" placeholder="community"  required=""><br><br>
+            Phone number
+<input type="text" value="+91" name="country code" placeholder="country code" size="1">
+<input type="text" name="phone" placeholder="phone no" required=""><br><br>
+       Email
+<input type="email" name="email" placeholder="personal id" required><br><br>
+	Url
+	<input type="url" value="www.kongu.ac.in" autofocus=""><br><br>	
+		
+	City
+<input type="text" name="place" placeholder="enter your city" ><br><br>
+	State
+<select>
+<option>Andhrapradhesh</option>
+<option>Himachalpradhesh</option>
+<option> Gujarat</option>
+<option>Madhyapradhesh</option>
+<option>TamilNadu</option>
+<option>Maharastra</option>
+<option selected> Karnataka</option>
+<option> Kerala</option>
+<option>WestBengal</option>
+</select><br><br>
+	 Address
+<textarea rows="3" cols="30" name="addr" tabindex="3">	</textarea><br><br>
+<input type="submit" value="Submit">
+<input type="reset" value="Clear">
+</fieldset>
+	</body></html>
